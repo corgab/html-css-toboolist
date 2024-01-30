@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+menu {
+	list-style: none;
+}
+
+
+body{
+    background-color: rgb(206, 206, 206);
+}
+
+.container{ 
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.main-header{
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.logo-title{
+    display: inline-block;
+}
+
+.button-list{
+    border-color: gray ;
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.button-special{
+    background-color: aqua;
+    color: white;
+}
+
+li{
+    padding: 5px 10px;
+}
+
+.divider{
+    padding: 5px 10px;
+}
+
+.divider-title{
+    padding: 10px 20px;
+
+}
+
+.checkmark{
+    color: green;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 3px
+}
+
+.x{
+    color: red;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 3px
+}
+
+.background-key{
+	width: 80px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 30px;
+    color: white;
+}
+
+.blu{
+    background-color: aqua;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
